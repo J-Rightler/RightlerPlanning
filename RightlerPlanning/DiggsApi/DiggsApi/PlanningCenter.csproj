@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DiggsApi</RootNamespace>
-    <AssemblyName>DiggsApi</AssemblyName>
+    <RootNamespace>PlanningCenter</RootNamespace>
+    <AssemblyName>PlanningCenter</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -137,16 +137,16 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppHost.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="PanningCenterAppHost.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DiggsApi.ServiceInterface\DiggsApi.ServiceInterface.csproj">
+    <ProjectReference Include="..\DiggsApi.ServiceInterface\DiggsApi.ServiceDefinition.csproj">
       <Project>{582dfb0f-f84d-4e43-9bca-2a5a86600b7a}</Project>
-      <Name>DiggsApi.ServiceInterface</Name>
+      <Name>DiggsApi.ServiceDefinition</Name>
     </ProjectReference>
     <ProjectReference Include="..\DiggsApi.ServiceModel\DiggsApi.ServiceModel.csproj">
       <Project>{08bef328-ab7d-48d3-800d-48acc75c7914}</Project>

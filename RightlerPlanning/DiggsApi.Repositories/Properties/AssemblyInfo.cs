@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DiggsApi.ServiceDefinition")]
+[assembly: AssemblyTitle("DiggsApi.Repositories")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DiggsApi.ServiceDefinition")]
-[assembly: AssemblyCopyright("Copyright © 2014")]
+[assembly: AssemblyCompany("Toshiba")]
+[assembly: AssemblyProduct("DiggsApi.Repositories")]
+[assembly: AssemblyCopyright("Copyright © Toshiba 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("043f906f-c941-4c62-8720-1703b38f6f38")]
+[assembly: Guid("ba6ca9fa-78c5-489a-a6c7-9e894544f962")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -3,7 +3,7 @@ using NUnit.Framework;
 using ServiceStack;
 using ServiceStack.Testing;
 using DiggsApi.ServiceModel;
-using DiggsApi.ServiceInterface;
+using DiggsApi.ServiceDefinition;
 
 namespace DiggsApi.Tests
 {

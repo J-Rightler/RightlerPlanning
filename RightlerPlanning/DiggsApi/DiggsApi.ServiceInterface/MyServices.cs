@@ -5,7 +5,7 @@ using System.Web;
 using ServiceStack;
 using DiggsApi.ServiceModel;
 
-namespace DiggsApi.ServiceInterface
+namespace DiggsApi.ServiceDefinition
 {
     public class MyServices : Service
     {

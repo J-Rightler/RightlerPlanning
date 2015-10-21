@@ -70,9 +70,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DiggsApi.ServiceInterface\DiggsApi.ServiceInterface.csproj">
+    <ProjectReference Include="..\DiggsApi.ServiceInterface\DiggsApi.ServiceDefinition.csproj">
       <Project>{582dfb0f-f84d-4e43-9bca-2a5a86600b7a}</Project>
-      <Name>DiggsApi.ServiceInterface</Name>
+      <Name>DiggsApi.ServiceDefinition</Name>
     </ProjectReference>
     <ProjectReference Include="..\DiggsApi.ServiceModel\DiggsApi.ServiceModel.csproj">
       <Project>{08bef328-ab7d-48d3-800d-48acc75c7914}</Project>
