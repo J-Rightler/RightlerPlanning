@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{DB81F314-6244-4C1E-91BA-7B6273299ECC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{0FD940AE-1DF6-4DA4-A077-B9679A517E57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiggsApi", "DiggsApi\DiggsApi\DiggsApi.csproj", "{53024FE0-18F4-445D-9A64-8B4C14C9E97C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiggsApi.ServiceModel", "DiggsApi\DiggsApi.ServiceModel\DiggsApi.ServiceModel.csproj", "{08BEF328-AB7D-48D3-800D-48ACC75C7914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiggsApi.ServiceInterface", "DiggsApi\DiggsApi.ServiceInterface\DiggsApi.ServiceInterface.csproj", "{582DFB0F-F84D-4E43-9BCA-2A5A86600B7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiggsApi.Tests", "DiggsApi\DiggsApi.Tests\DiggsApi.Tests.csproj", "{B1665387-EF91-4CA0-82BB-66E5781ED800}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53024FE0-18F4-445D-9A64-8B4C14C9E97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53024FE0-18F4-445D-9A64-8B4C14C9E97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53024FE0-18F4-445D-9A64-8B4C14C9E97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53024FE0-18F4-445D-9A64-8B4C14C9E97C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BEF328-AB7D-48D3-800D-48ACC75C7914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BEF328-AB7D-48D3-800D-48ACC75C7914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BEF328-AB7D-48D3-800D-48ACC75C7914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BEF328-AB7D-48D3-800D-48ACC75C7914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582DFB0F-F84D-4E43-9BCA-2A5A86600B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582DFB0F-F84D-4E43-9BCA-2A5A86600B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582DFB0F-F84D-4E43-9BCA-2A5A86600B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582DFB0F-F84D-4E43-9BCA-2A5A86600B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1665387-EF91-4CA0-82BB-66E5781ED800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1665387-EF91-4CA0-82BB-66E5781ED800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1665387-EF91-4CA0-82BB-66E5781ED800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1665387-EF91-4CA0-82BB-66E5781ED800}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53024FE0-18F4-445D-9A64-8B4C14C9E97C} = {0FD940AE-1DF6-4DA4-A077-B9679A517E57}
+		{08BEF328-AB7D-48D3-800D-48ACC75C7914} = {0FD940AE-1DF6-4DA4-A077-B9679A517E57}
+		{582DFB0F-F84D-4E43-9BCA-2A5A86600B7A} = {0FD940AE-1DF6-4DA4-A077-B9679A517E57}
+		{B1665387-EF91-4CA0-82BB-66E5781ED800} = {0FD940AE-1DF6-4DA4-A077-B9679A517E57}
+	EndGlobalSection
+EndGlobal
