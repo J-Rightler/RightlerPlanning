@@ -60,11 +60,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="HelloManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DiggsApi.Interfaces\DiggsApi.Interfaces.csproj">
+      <Project>{ed2adb5e-325b-4f54-a724-ec3a65430b49}</Project>
+      <Name>DiggsApi.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DiggsApi\DiggsApi.ServiceModel\DiggsApi.ServiceModel.csproj">
+      <Project>{08bef328-ab7d-48d3-800d-48acc75c7914}</Project>
+      <Name>DiggsApi.ServiceModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
